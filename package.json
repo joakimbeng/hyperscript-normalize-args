@@ -1,0 +1,62 @@
+{
+  "name": "hyperscript-normalize-args",
+  "version": "0.1.0",
+  "description": "A hyperscript helper to normalize component arguments, for easier creation of reusable components",
+  "main": "src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joakimbeng/hyperscript-normalize-args.git"
+  },
+  "keywords": [
+    "hyperscript",
+    "helper",
+    "component",
+    "normalize",
+    "reusable"
+  ],
+  "author": {
+    "name": "Joakim Carlstein",
+    "email": "joakim@beng.se",
+    "url": "http://joakim.beng.se"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joakimbeng/hyperscript-normalize-args/issues"
+  },
+  "homepage": "https://github.com/joakimbeng/hyperscript-normalize-args#readme",
+  "xo": {
+    "envs": [
+      "node"
+    ]
+  },
+  "pj2md": {
+    "related": [
+      "hyperscript",
+      "hyperscript-helpers",
+      "hyperscript-string",
+      "snabbdom",
+      "virtual-dom",
+      "@cycle/dom"
+    ]
+  },
+  "devDependencies": {
+    "ava": "^0.12.0",
+    "hyperscript": "^1.4.7",
+    "hyperscript-string": "^1.0.1",
+    "snabbdom": "^0.3.4",
+    "virtual-dom": "^2.1.1",
+    "xo": "^0.12.1"
+  },
+  "dependencies": {
+    "arrify": "^1.0.1",
+    "assign-deep": "^0.4.3",
+    "classnames": "^2.2.3",
+    "is-plain-object": "^2.0.1"
+  }
+}
